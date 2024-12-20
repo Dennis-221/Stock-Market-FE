@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0 2rem;
+  background-color: darkslategrey;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+/* List section */
+#list {
+  position: relative;
+  left: 150px;
+  top: -50px;
+  padding: 0;
+  display: inline-block;
+  width: 320px;
+  text-align: justify;
+  color: antiquewhite;
+  border: 2px dashed antiquewhite;
+}
+ul {
+  list-style-type: none;
+  display: flexbox;
+  padding: 3px;
+}
+li {
+  margin: 0 0 10px 5px;
+}
+.span1 {
+  position: absolute;
+  left: 100px;
+  margin: 10px;
+}
+.span2 {
+  position: absolute;
+  left: 200px;
+  margin: 10px;
+}
+.list-button {
+  border-radius: 25% 0;
+  height: 2rem;
+}
+.list-button:hover {
+  background-color: cadetblue;
+}
+.color-red {
+  color: red;
+}
+.color-green {
+  color: rgb(38, 235, 38);
+}
+.margin-20 {
+  margin-left: 20px;
+}
+/* Detail section */
+#detail {
+  width: 1000px;
+  position: relative;
+  color: antiquewhite;
+  font-size: 0.9rem;
+}
+#detail h2 {
+  font-size: 1.3rem;
+}
+
+/* Chart section */
+#chart {
+  display: inline-block;
+  /* background-color: rgb(52, 121, 123); */
+  border-radius: 2%;
+}
+#stockChart {
+  width: 900px;
+  margin: 5% 0 0 2%;
+  color: bisque;
+}
+.time-slot {
+  position: relative;
+  left: 300px;
+  /* bottom: 100px; */
+  border-radius: 10%;
+  width: 6rem;
+  height: 2rem;
+  box-shadow: none;
+  border: none;
+  background-color: rgb(29, 97, 99);
+  color: antiquewhite;
+  margin: 2px;
+  z-index: 3;
+}
+/* Hover line */
+#hover-line {
+  width: 0px;
+  height: 350px;
+  border: 2px solid wheat;
+  position: absolute;
+  top: 320px;
+  left: 90px;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  transition: 0.1s ease-out;
+}
+/* Hover Point */
+#hover-point {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: rgb(99, 241, 101);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.1s ease-out;
+}
+#peaks {
+  position: absolute;
+  padding-left: 20px;
+  top: 133px;
+  left: 780px;
+  width: 145px;
+  height: 80px;
+  background-color: rgb(5, 81, 81);
+  color: aliceblue;
+}

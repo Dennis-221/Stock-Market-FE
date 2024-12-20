@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market Tech Giants</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  </head>
+  <body>
+    <h1>Stock Market Analysis</h1>
+    <div id="chart">
+      <canvas id="stockChart"></canvas>
+      <div id="peaks"></div>
+      <div id="hover-line"></div>
+      <div id="hover-point"></div>
+      <button class="time-slot">1 month</button>
+      <button class="time-slot">3 months</button>
+      <button class="time-slot">1 year</button>
+      <button class="time-slot">5 years</button>
+    </div>
+    <div id="list">
+      <ul id="cp"></ul>
+    </div>
+    <div id="detail"></div>
+    <script src="index.js"></script>
+    <script src="index_list.js"></script>
+    <script src="index_detail.js"></script>
+    <script src="index_hover_line.js"></script>
+    <script src="index_hover_point.js"></script>
+  </body>
+</html>
